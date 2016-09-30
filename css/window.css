@@ -1,0 +1,49 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+.panel {
+	margin: 0px;
+	padding: 0px;
+}
+.container {
+	margin: 0px;
+	padding: 5px 10px;
+}
+.container button {
+	margin: 0px 5px;
+}
+#header {
+	overflow: hidden;
+	height: 30px;
+	-webkit-app-region: drag;
+	background-color: white;
+}
+#game {
+	height: 470px;
+	background-color: red;
+}
+#controller {
+	height: 300px;
+	background-color: white;
+}
+#closeButton {
+	float: right;
+	width: 20px;
+	height: 20px;
+	background-image: url('../images/close.png');
+	background-size : contain;
+	background-color: white;
+	border : 0px;
+	background-repeat : no-repeat;
+	-webkit-app-region: no-drag;
+}
+#freshButton {
+	width: 20px;
+	height: 20px;
+	background-image: url('../images/small-refresh.png');
+	background-size : contain;
+	background-color: white;
+	border : 0px;
+	background-repeat : no-repeat;
+}

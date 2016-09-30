@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>AigisViewer</title>
+    <link rel="stylesheet" type="text/css" href="css/window.css">
+    <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+  </head>
+  <body onload="viewerReady()">
+    <div id="main" class="panel">
+      <div id="header" class="panel">
+        <div class="container">
+          <span>AigisViewer</span>
+          <button id="closeButton"></button>
+        </div>
+      </div>
+      <div id="game" class="panel">
+        
+      </div>
+      <div id="controller" class="panel">
+        <div id="urlContainer" class="container">
+          <label style="border: solid black 1px;padding: 5px;">URL:
+            <input type="text" name="address" size="70" maxlength="150">
+            <button id="freshButton"></button>
+          </label>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
